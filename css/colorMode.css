@@ -1,0 +1,65 @@
+/*  Inpirado na aula (live do YouTube) do Mayk Brito, canal RocketSeat
+        Link: https://www.youtube.com/watch?v=XyTYr07OM7c
+*/
+
+/* Tema Light, Dark e Green só pelo CSS !!  */
+
+
+
+/* Configurações Gerais */
+
+.light, 
+:root:has(#light:checked) {
+    --bg-color: white;
+    --text-color: black;
+}
+
+.dark,
+:root:has(#dark:checked) {
+    --bg-color: black;
+    --text-color: white;
+}
+
+.green,
+:root:has(#green:checked) {
+    --bg-color: green;
+    --text-color: white;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+
+.colorMode__lista {
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.input__colorMode {
+    appearance: none;
+    border: 2px solid var(--input-color);
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+}
+
+.input__colorMode:checked {
+    background-color: var(--input-color);
+}
+
+#light {
+    --input-color: gray; 
+}
+
+#dark {
+    --input-color: black;
+}
+
+#green {
+    --input-color: green;
+}
+
+
