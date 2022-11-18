@@ -10,25 +10,29 @@
 
 .light, 
 :root:has(#light:checked) {
-    --bg-color: white;
+    --bg-color: #f7f8fc;
     --text-color: black;
+    --font-family: 'Open Sans', sans-serif;
 }
 
 .dark,
 :root:has(#dark:checked) {
     --bg-color: black;
     --text-color: white;
+    --font-family: 'Open Sans', sans-serif;
 }
 
 .green,
 :root:has(#green:checked) {
     --bg-color: green;
     --text-color: white;
+    --font-family: 'Open Sans', sans-serif;
 }
 
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
+    font-family: var(--font-family);
 }
 
 

@@ -1,9 +1,10 @@
 .cabecalho {
+    background-color: #a5cc7a;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 8px 16px;
-    border: 1px solid red;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
 }
 
 .cabecalho__menu, .cabecalho__logo, .colorMode__lista{
