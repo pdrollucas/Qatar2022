@@ -9,7 +9,7 @@
 .convocados__imagem-principal{
     border-radius: 10px;
     width: 90%;
-    margin: 0 auto; 
+    margin: 0 auto 32px auto; 
     display: flex;
     align-self: center;
 
@@ -21,7 +21,6 @@
 
 .convocados__cartao {
     background-color: #ffffcc;
-    border: 1px solid red;
     border-radius: 15px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
     border: 1px solid gray;

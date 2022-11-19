@@ -1,0 +1,54 @@
+/* .canais {
+
+} */
+
+.canal {
+    margin: 16px auto 32px auto;
+    width: 60vw;
+    
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    border: 1px solid gray;
+    background-color: #a5cc7a;
+}
+
+.canal__logo{
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffcc;
+    border-radius: 15px;
+}
+
+.canal__logo--item {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.canal__titulo {
+    font-size: 1.2rem;
+    padding: 16px;
+    font-weight: 600;
+
+}
+
+.botao-play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 0 auto 8px;
+    width: 50%;
+
+    font-weight: 600;
+
+    background-color: #9ddacb;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+}
+
+.botao-play__item {
+    width: 18px;
+    margin-left: 10px;
+}
