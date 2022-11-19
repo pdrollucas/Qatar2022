@@ -3,13 +3,23 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 16px;
+    padding: 16px 8px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
 }
 
-.cabecalho__menu, .cabecalho__logo, .colorMode__lista{
+.cabecalho__menu {
     width: 50px;
-    margin: auto;
+    justify-content: flex-start;
+} 
+
+.cabecalho__logo{
+    width: 50px;
+    justify-content: center;
+}
+
+.colorMode__lista{
+    width: 50px;
+    justify-content: flex-end;
 }
 
 

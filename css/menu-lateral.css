@@ -1,13 +1,15 @@
 .menu-lateral {
     display: flex;
     flex-direction: column;
-    background-color: #15191C;
+    background-color: #dbe6f0;
     width: 75vw;
     height: 100vh;
 
     position: absolute;
     left: -100vw;
     transition: .25s;
+
+    font-size: 1.7rem;
 }
 
 .menu-lateral--ativo {
@@ -17,8 +19,11 @@
 
 .menu-lateral__logo {
     align-self: center;
-    width: 118px;
+/*    width: 118px; */
+    height: 30vh;
+    width: auto;
     padding: 16px;
+    margin-bottom: 15px;
 }
 
 .menu-lateral__link {
@@ -30,9 +35,10 @@
 }
 
 .menu-lateral__link--ativo {
-    color: #FFFFFF;
+    color: black;
+    font-weight: 700;
     padding-left: 56px;
-    border-left: 8px solid #FFFFFF;
+    border-left: 8px solid black;
 }
 
 .menu-lateral__link::before {
