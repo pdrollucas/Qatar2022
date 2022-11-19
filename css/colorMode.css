@@ -17,22 +17,27 @@
 
 .dark,
 :root:has(#dark:checked) {
-    --bg-color: black;
-    --text-color: white;
+    --bg-color: #141325;
+    --text-color: #ebf2f2;
     --font-family: 'Open Sans', sans-serif;
 }
 
+/*
 .green,
 :root:has(#green:checked) {
-    --bg-color: green;
-    --text-color: white;
+    --bg-color: #d2fdfe;
+    --text-color: black;
     --font-family: 'Open Sans', sans-serif;
 }
+*/
 
 body {
     background-color: var(--bg-color);
-    color: var(--text-color);
     font-family: var(--font-family);
+}
+
+.convocados__titulo, .principal__titulo {
+    color: var(--text-color);
 }
 
 
@@ -62,8 +67,10 @@ body {
     --input-color: black;
 }
 
+/*
 #green {
     --input-color: green;
 }
+*/
 
 
