@@ -1,0 +1,26 @@
+.principal__observacao{
+    color: #626262;
+    margin: 0 10% 5% 10%;
+}
+
+.cartao__fases{
+    width: 85%;
+}
+
+.cartao__mata-mata--titulo {
+    color: #626262;
+}
+
+.adversarios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0 0 0;
+}
+
+.icone--adversarios {
+    width: 25px;
+    margin: 0 4px;
+}
+
+
