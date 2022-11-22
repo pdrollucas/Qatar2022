@@ -1,0 +1,59 @@
+.tabela {
+    background-color: #EDEDED;
+
+    border: 1px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 15px;
+    width: 95vw;
+
+    margin: 0 auto;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabela__titulo{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0 auto 5px auto;
+
+    background-color: #f7f8fc;
+    border: 3px solid #a5cc7a;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 15px;
+    padding: 10px;
+    width: 40%;
+}
+
+.th__negrito {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.tabela__principal {
+    width: 90vw;
+}
+
+th {
+    padding: 10px 0 10px 0px;
+}
+
+.tabela__bandeira{
+    width: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+td {
+    border: 2px solid #a5cc7a;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    padding: 10px 5px;
+    text-align: center;
+}
