@@ -61,3 +61,22 @@
     margin-right: 10px;
     margin-top: 7px;
 }
+
+footer {
+    text-align: center;
+    background-color: #a5cc7a;
+    border-top: 1px solid black;
+    font-size: 1.2rem;
+    margin: 80px 0 0 0;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px ;
+}
+
+footer img {
+    width: 2rem;
+    margin: 1rem 1rem 0 1rem;
+    padding: 2px;
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+}

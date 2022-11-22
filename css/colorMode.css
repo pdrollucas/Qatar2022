@@ -17,7 +17,7 @@
 
 .dark,
 :root:has(#dark:checked) {
-    --bg-color: #141325;
+    --bg-color: #363636;
     --text-color: #ebf2f2;
     --font-family: 'Open Sans', sans-serif;
 }
